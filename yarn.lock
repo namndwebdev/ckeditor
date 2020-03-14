@@ -886,6 +886,49 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@ckeditor/ckeditor5-core@^15.0.0":
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-core/-/ckeditor5-core-15.0.0.tgz#891916804c8376f00b93dea0ed3af704725420e8"
+  integrity sha512-hZ0Bljc3zAzZjn1XDaPQc+ryTx103QnzFdFxRD6iPHCGhEG4iMiA9tP7yf6yQxZzewv6desAEqVK9gHCFaRxww==
+  dependencies:
+    "@ckeditor/ckeditor5-engine" "^15.0.0"
+    "@ckeditor/ckeditor5-utils" "^15.0.0"
+    lodash-es "^4.17.10"
+
+"@ckeditor/ckeditor5-engine@^15.0.0":
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-engine/-/ckeditor5-engine-15.0.0.tgz#06c013882657d6bc73e4b99fd85fa77d6bf599c6"
+  integrity sha512-6CGzfXmK/tw/fKdXqfp+azpu4fycbrTHKAHmj68we2opGWLvEpuuS/p0g39+PcrMNPYRIVjq+id2676Q6+QZrw==
+  dependencies:
+    "@ckeditor/ckeditor5-utils" "^15.0.0"
+    lodash-es "^4.17.10"
+
+"@ckeditor/ckeditor5-ui@^15.0.0":
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-ui/-/ckeditor5-ui-15.0.0.tgz#25252546518cc34a62ad3a08c1136ae78fa7dc38"
+  integrity sha512-+gTXxYveLcaYewey2xolqfcIOCSP3AJk45KMG+3GtU2r2JedPMGgbR/DwqdTuY4xxrRNLbPC9Mi9e+19cXcJbQ==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^15.0.0"
+    "@ckeditor/ckeditor5-utils" "^15.0.0"
+    lodash-es "^4.17.10"
+
+"@ckeditor/ckeditor5-upload@^15.0.0":
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-upload/-/ckeditor5-upload-15.0.0.tgz#1bf003bf082d8b58995078737c1466ac8f1451d2"
+  integrity sha512-7eoxhpV4PmwrYu8nCdZ86Psb2XLpmsD0CpD01MORXqCZXPgUFIEB98y/48FtW19oPn5GLCzqT/ylpg0/CY88iQ==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^15.0.0"
+    "@ckeditor/ckeditor5-ui" "^15.0.0"
+    "@ckeditor/ckeditor5-utils" "^15.0.0"
+
+"@ckeditor/ckeditor5-utils@^15.0.0":
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-utils/-/ckeditor5-utils-15.0.0.tgz#07859a06671acdd64d79dcc5a93c300139bed5c0"
+  integrity sha512-eAUYjFusNuj2N8NqGbquMOnSv4wjcO2TuipCP1Rao/FHWX6h+PWBhxnD3J9igRQRvLePYbtQAUAvLeD846JA0A==
+  dependencies:
+    ckeditor5 "^15.0.0"
+    lodash-es "^4.17.10"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -1518,9 +1561,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.2.1:
   version "6.3.0"
@@ -2415,6 +2458,11 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
+
+ckeditor5@^15.0.0:
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/ckeditor5/-/ckeditor5-15.0.0.tgz#ec5c6d38505077ee6756deb42d07b3a6c4d9616b"
+  integrity sha512-LVrey6xTa+Sm2CvYaicPbW51/fV19fd9EFkhERSvskTSyKelvzLwBlug0PYHS8JFnrdBWjQf5bbdggzFZyVt2w==
 
 class-utils@^0.3.5:
   version "0.3.6"
@@ -5898,6 +5946,11 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
+lodash-es@^4.17.10:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
+  integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
+
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -7997,15 +8050,15 @@ react-dev-utils@^9.1.0:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.12.0:
-  version "16.12.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.12.0.tgz#0da4b714b8d13c2038c9396b54a92baea633fe11"
-  integrity sha512-LMxFfAGrcS3kETtQaCkTKjMiifahaMySFDn71fZUNpPHZQEzmk/GiAeIT8JSOrHB23fnuCOMruL2a8NYlw+8Gw==
+react-dom@^16.12.0:
+  version "16.13.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.0.tgz#cdde54b48eb9e8a0ca1b3dc9943d9bb409b81866"
+  integrity sha512-y09d2c4cG220DzdlFkPTnVvGTszVvNpC73v+AaLGLHbkpy3SSgvYq8x0rNwPJ/Rk/CicTNgk0hbHNw1gMEZAXg==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.18.0"
+    scheduler "^0.19.0"
 
 react-error-overlay@^6.0.3:
   version "6.0.3"
@@ -8078,10 +8131,10 @@ react-scripts@3.2.0:
   optionalDependencies:
     fsevents "2.0.7"
 
-react@16.12.0:
-  version "16.12.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
-  integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
+react@^16.12.0:
+  version "16.13.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.13.0.tgz#d046eabcdf64e457bbeed1e792e235e1b9934cf7"
+  integrity sha512-TSavZz2iSLkq5/oiE7gnFzmURKZMltmi193rm5HEoUDAXpzT9Kzw6oNZnGoai/4+fUnm7FqS5dwgUL34TujcWQ==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -8531,10 +8584,10 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
-scheduler@^0.18.0:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.18.0.tgz#5901ad6659bc1d8f3fdaf36eb7a67b0d6746b1c4"
-  integrity sha512-agTSHR1Nbfi6ulI0kYNK0203joW2Y5W4po4l+v03tOoiJKpTBbxpNhWDvqc/4IcOw+KLmSiQLTasZ4cab2/UWQ==
+scheduler@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.0.tgz#a715d56302de403df742f4a9be11975b32f5698d"
+  integrity sha512-xowbVaTPe9r7y7RUejcK73/j8tt2jfiyTednOvHbA8JoClvMYCp+r8QegLwK/n8zWQAtZb1fFnER4XLBZXrCxA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
